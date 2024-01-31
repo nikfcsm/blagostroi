@@ -10,8 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet">
-      <link rel="stylesheet" href="/css/owlcarousel/owl.carousel.min.css">
-<link rel="stylesheet" href="/css/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owlcarousel/owl.theme.default.min.css">
+
   </head>
   <body>
     <header>
@@ -62,10 +63,11 @@
         </nav>
       </div>
       <div class="contacts-wrapper">
-        <div class="header-callback">Заказать звонок</div>
-        <div class="header-phone"><a href="tel:+79262075333">+7 926 207 53 33</a></div>
+        <a href="#ex1" rel="modal:open" class="header-callback">Заказать звонок</a>
+        <div class="header-phone"><a href="tel:+79262075333"><span class="phone-txt">+7 926 207 53 33</span><span class="phone-ico"><img src="/img/phone-mob-ico.svg" alt=""></span></a></div>
         <div class="header-time">Пн-Вс 21.00-21.00</div>
       </div>
+      <img class="humburger" src="/img/humburger.svg" alt="">
     </header>
     <section class="slider owl-carousel-slider owl-carousel owl-theme">
       <div class="slide-main slide1">
@@ -106,19 +108,20 @@
       </div>
     </section>
     <section class="video">
-<div class="container video-wrapper">
-  <div class="video-left">
-    <h2>О КОМПАНИИ</h2>
-    <hr>
-   <div class="name">БЛАГОСТРОЙ <span>+</span></div>
-   <p>Наша цель - быстрое и качественное решение всех ваших проблем по благоустройству территории.</p>
-   <p>Мы выполняем все земляные работы по выравниванию и раскорчевке участка. Делаем дренажные работы и прокладываем водопровод. Выполняем полное благоустройство и озеленение участка.</p>
-   <a class="slider-btn video-btn" href="">Заказать звонок</a>
-  </div>
-  <div class="video-right">
-    <img src="/img/home/poster.jpg" alt="">
-  </div>
-</div>
+      <div class="container video-wrapper">
+        <div class="video-left">
+          <h2>О КОМПАНИИ</h2>
+          <hr>
+          <div class="name">БЛАГОСТРОЙ <span>+</span></div>
+          <p>Наша цель - быстрое и качественное решение всех ваших проблем по благоустройству территории.</p>
+          <p>Мы выполняем все земляные работы по выравниванию и раскорчевке участка. Делаем дренажные работы и
+            прокладываем водопровод. Выполняем полное благоустройство и озеленение участка.</p>
+          <a class="slider-btn video-btn" href="">Заказать звонок</a>
+        </div>
+        <div class="video-right">
+          <img src="/img/home/poster.jpg" alt="">
+        </div>
+      </div>
     </section>
     <section class="services">
       <div class="container ">
@@ -126,30 +129,30 @@
         <div class="services-wrapper">
           <div class="services-wrapper-left"><img src="/img/home/service1.jpg" alt=""></div>
           <div class="services-wrapper-right">
-<h3>УБОРКА И РАСЧИСТКА</h3>
-<div class="services-wrapper-right_icons">
-  <div class="icons-block">
-    <img src="/img/home/services_ico/ph_tree.svg" alt=""> Удаление деревьев
-  </div>
-  <div class="icons-block">
-    <img src="/img/home/services_ico/game-icons_rake.svg" alt=""> Выравнивание
-  </div>
-  <div class="icons-block">
-    <img src="/img/home/services_ico/game-icons_tree-branch.svg" alt=""> Утилизация деревьев и веток
-  </div>
-  <div class="icons-block">
-    <img src="/img/home/services_ico/carbon_trash-can.svg" alt=""> Вывоз корней
-  </div>
+            <h3>УБОРКА И РАСЧИСТКА</h3>
+            <div class="services-wrapper-right_icons">
+              <div class="icons-block">
+                <img src="/img/home/services_ico/ph_tree.svg" alt=""> Удаление деревьев
+              </div>
+              <div class="icons-block">
+                <img src="/img/home/services_ico/game-icons_rake.svg" alt=""> Выравнивание
+              </div>
+              <div class="icons-block">
+                <img src="/img/home/services_ico/game-icons_tree-branch.svg" alt=""> Утилизация деревьев и веток
+              </div>
+              <div class="icons-block">
+                <img src="/img/home/services_ico/carbon_trash-can.svg" alt=""> Вывоз корней
+              </div>
 
-  <div class="icons-block">
-    <img src="/img/home/services_ico/game-icons_axe-in-stump.svg" alt=""> Выкорчевывание
-  </div>
+              <div class="icons-block">
+                <img src="/img/home/services_ico/game-icons_axe-in-stump.svg" alt=""> Выкорчевывание
+              </div>
 
-  <div class="icons-block">
-    <img src="/img/home/services_ico/octicon_container-24.svg" alt=""> Контейнер
-  </div>
-</div>
-<a href="">УЗНАТЬ СТОИМОСТЬ ></a>
+              <div class="icons-block">
+                <img src="/img/home/services_ico/octicon_container-24.svg" alt=""> Контейнер
+              </div>
+            </div>
+            <a href="">УЗНАТЬ СТОИМОСТЬ ></a>
           </div>
         </div>
 
@@ -157,22 +160,22 @@
         <div class="services-wrapper row-reverse">
           <div class="services-wrapper-left"><img src="/img/home/service2.jpg" alt=""></div>
           <div class="services-wrapper-right">
-<h3>ПОДГОТОВКА ПОД ГАЗОН</h3>
-<div class="services-wrapper-right_icons">
-  <div class="icons-block">
-    <img src="/img/home/services_ico/ico3.svg" alt=""> Вспашка земли
-  </div>
-  <div class="icons-block">
-    <img src="/img/home/services_ico/game-icons_high-grass.svg" alt=""> Подготовка почвы
-  </div>
-  <div class="icons-block">
-    <img src="/img/home/services_ico/game-icons_rake.svg" alt=""> Выравнивание
-  </div>
-  
+            <h3>ПОДГОТОВКА ПОД ГАЗОН</h3>
+            <div class="services-wrapper-right_icons">
+              <div class="icons-block">
+                <img src="/img/home/services_ico/ico3.svg" alt=""> Вспашка земли
+              </div>
+              <div class="icons-block">
+                <img src="/img/home/services_ico/game-icons_high-grass.svg" alt=""> Подготовка почвы
+              </div>
+              <div class="icons-block">
+                <img src="/img/home/services_ico/game-icons_rake.svg" alt=""> Выравнивание
+              </div>
 
 
-</div>
-<a class="services-a" href="">УЗНАТЬ СТОИМОСТЬ ></a>
+
+            </div>
+            <a class="services-a" href="">УЗНАТЬ СТОИМОСТЬ ></a>
           </div>
         </div>
 
@@ -182,31 +185,31 @@
         <div class="services-wrapper">
           <div class="services-wrapper-left"><img src="/img/home/service3.jpg" alt=""></div>
           <div class="services-wrapper-right">
-<h3>ДРЕНАЖНЫЕ РАБОТЫ</h3>
-<div class="services-wrapper-right_icons">
-  <div class="icons-block">
-    <img src="/img/home/services_ico/ico1.svg" alt=""> Изучение грунта
-  </div>
-  <div class="icons-block">
-    <img src="/img/home/services_ico/ico2.svg" alt=""> Установка труб
-  </div>
-  <div class="icons-block">
-    <img src="/img/home/services_ico/ico3.svg" alt=""> Создание канав
-  </div>
-  <div class="icons-block">
-    <img src="/img/home/services_ico/ico4.svg" alt=""> Засыпка
-  </div>
+            <h3>ДРЕНАЖНЫЕ РАБОТЫ</h3>
+            <div class="services-wrapper-right_icons">
+              <div class="icons-block">
+                <img src="/img/home/services_ico/ico1.svg" alt=""> Изучение грунта
+              </div>
+              <div class="icons-block">
+                <img src="/img/home/services_ico/ico2.svg" alt=""> Установка труб
+              </div>
+              <div class="icons-block">
+                <img src="/img/home/services_ico/ico3.svg" alt=""> Создание канав
+              </div>
+              <div class="icons-block">
+                <img src="/img/home/services_ico/ico4.svg" alt=""> Засыпка
+              </div>
 
 
-</div>
-<a class="services-a" href="">УЗНАТЬ СТОИМОСТЬ ></a>
+            </div>
+            <a class="services-a" href="">УЗНАТЬ СТОИМОСТЬ ></a>
           </div>
         </div>
-<div class="btn-block">
-  
-  <a class="services-btn" href="">Заказать звонок</a>
-  <a class="services-btn-b" href="">Заказать звонок</a>
-</div>
+        <div class="btn-block">
+
+          <a class="services-btn" href="">Заказать услугу</a>
+          <a class="services-btn-b" href="">Посмотреть все услуги</a>
+        </div>
 
 
 
@@ -220,83 +223,367 @@
     <section class="why_we">
       <div class="b-running-line">
         <span class="__items line-animation">
-            <span>При заказе дренажных работ - септик в подарок!</span>
-    <span>При заказе дренажных работ - септик в подарок!</span>
-                <span>При заказе дренажных работ - септик в подарок!</span>
-                            <span>При заказе дренажных работ - септик в подарок!</span>
+          <span>При заказе дренажных работ - септик в подарок!</span>
+          <span>При заказе дренажных работ - септик в подарок!</span>
+          <span>При заказе дренажных работ - септик в подарок!</span>
+          <span>При заказе дренажных работ - септик в подарок!</span>
         </span>
         <span aria-hidden="true" class="__items line-animation">
-            <span>При заказе дренажных работ - септик в подарок!</span>
-    <span>При заказе дренажных работ - септик в подарок!</span>
-                <span>При заказе дренажных работ - септик в подарок!</span>
-                            <span>При заказе дренажных работ - септик в подарок!</span>
+          <span>При заказе дренажных работ - септик в подарок!</span>
+          <span>При заказе дренажных работ - септик в подарок!</span>
+          <span>При заказе дренажных работ - септик в подарок!</span>
+          <span>При заказе дренажных работ - септик в подарок!</span>
         </span>
-    </div>
-    <div class="fon-color">
-    <div class=" whywe-wrapper ">
-     
-<div class="whywe-left">
-  <div class="whywe-left-inside">
-<div class="whywe-heading">ПРИЧИНЫ <span>ВЫБРАТЬ</span> НАС :</div>
-<ol>
-	<li>Работаем с профессиональным дизайнером, который разработает грамотный проект по благоустройству вашего участка.</li>
-	<li>Разработка дизайн-проекта 2 недели, земельные работы от 1 дня, установка дренажной системы 2 дня.</li>
-	<li>Обратившись к нам вы решаете сразу ВСЕ проблемы с благоустройством своего участка.
-  </li>
+      </div>
+      <div class="fon-color">
+        <div class=" whywe-wrapper ">
 
-</ol>
-</div>
-</div>
-</div>
-<div class="whywe-right">
-  <div class="form-heading">
-    ОТПРАВЬТЕ ЗАЯВКУ <span>И МЫ ВАМ ПЕРЕЗВОНИМ</span>
+          <div class="whywe-left">
+            <div class="whywe-left-inside">
+              <div class="whywe-heading">ПРИЧИНЫ <span>ВЫБРАТЬ</span> НАС :</div>
+              <ol>
+                <li>Работаем с профессиональным дизайнером, который разработает грамотный проект по благоустройству
+                  вашего участка.</li>
+                <li>Разработка дизайн-проекта 2 недели, земельные работы от 1 дня, установка дренажной системы 2 дня.
+                </li>
+                <li>Обратившись к нам вы решаете сразу ВСЕ проблемы с благоустройством своего участка.
+                </li>
 
-  </div>
-  <form class="whywe-form" action="/send.php" method="POST">
- 
-      
-      <input class="whywe-input input1" placeholder="Ваше Имя" type="text" name="name" id="name" required>
-   
- 
-     
-      <input class="whywe-input input2" placeholder="Номер Телефона" type="phone" name="phone" id="phone" required>
- 
-    <button class="whywe-submit btn" type="submit">Отправить</button>
-  </form>
-</div>
-    </div>
-  
+              </ol>
+            </div>
+          </div>
+        </div>
+        <div class="whywe-right">
+          <div class="form-heading">
+            ОТПРАВЬТЕ ЗАЯВКУ <span>И МЫ ВАМ ПЕРЕЗВОНИМ</span>
+
+          </div>
+          <form class="whywe-form" action="/send.php" method="POST">
+
+
+            <input class="whywe-input input1" placeholder="Ваше Имя" type="text" name="name" id="name" required>
+
+
+
+            <input class="whywe-input input2" placeholder="Номер Телефона" type="phone" name="phone" id="phone"
+              required>
+
+            <button class="whywe-submit btn" type="submit">Отправить</button>
+          </form>
+        </div>
+      </div>
+
+    </section>
+    <section class="spectech">
+      <h2>АРЕНДА СПЕЦТЕХНИКИ</h2>
+      <div class="container flex">
+        <div class="tech-wrapper">
+          <div class="tech-number">
+            <div class="tech-cifra">1</div>
+            <div class="tech-hr">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1" height="60" viewBox="0 0 1 60" fill="none">
+                <path d="M0.5 0V60" stroke="#C3C9B2" stroke-width="0.5" />
+              </svg>
+            </div>
+            <div class="tech-heading">МИНИ-ЭКСКАВАТОР SANY SY35U</div>
+          </div>
+          <div><img src="/img/home/tech1.jpg" alt=""></div>
+        </div>
+
+        <div class="tech-wrapper reverse">
+          <div class="tech-number">
+            <div class="tech-cifra">2</div>
+            <div class="tech-hr">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1" height="60" viewBox="0 0 1 60" fill="none">
+                <path d="M0.5 0V60" stroke="#C3C9B2" stroke-width="0.5" />
+              </svg>
+            </div>
+            <div class="tech-heading">МИНИ-ПОГРУЗЧИК LIUGONG 385</div>
+          </div>
+          <div><img src="/img/home/tech2.jpg" alt=""></div>
+        </div>
+
+        <div class="tech-wrapper ">
+          <div class="tech-number">
+            <div class="tech-cifra">3</div>
+            <div class="tech-hr">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1" height="60" viewBox="0 0 1 60" fill="none">
+                <path d="M0.5 0V60" stroke="#C3C9B2" stroke-width="0.5" />
+              </svg>
+            </div>
+            <div class="tech-heading">ИЗМЕЛЬЧИТЕЛЬ MEDVED TECH</div>
+          </div>
+          <div><img src="/img/home/tech3.jpg" alt=""></div>
+        </div>
+
+
+        <div class="tech-wrapper reverse">
+          <div class="tech-number">
+            <div class="tech-cifra">4</div>
+            <div class="tech-hr">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1" height="60" viewBox="0 0 1 60" fill="none">
+                <path d="M0.5 0V60" stroke="#C3C9B2" stroke-width="0.5" />
+              </svg>
+            </div>
+            <div class="tech-heading">ЭВАКУАТОР GAZON NEXT</div>
+          </div>
+          <div><img src="/img/home/tech4.jpg" alt=""></div>
+        </div>
+
+
+
+
+
+      </div>
+      <div class="btn-block">
+
+        <a class="services-btn" href="">Заказать звонок</a>
+        <a class="services-btn-b" href="">Заказать звонок</a>
+      </div>
+    </section>
+    <section class="price">
+      <div class="container price-flex">
+        <h2>ЦЕНЫ</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="423" height="2" viewBox="0 0 423 2" fill="none">
+          <path d="M0 1H423" stroke="#C3C9B2" stroke-width="0.5" />
+        </svg>
+        <span>СКОЛЬКО ЖЕ БУДУТ СТОИТЬ НАШИ УСЛУГИ?</span>
+        <a class="slider-btn video-btn" href="/price">Посмотреть прайс</a>
+      </div>
+    </section>
+    <section class="landscape">
+      <div class="container">
+        <h2>ЛАНДШАФТНЫЙ ДИЗАЙН</h2>
+        <div class="landscape-wrapper">
+          <div class="landscape-left">
+            <p>Наша команда ландшафтных дизайнеров - выпускники ведущих ВУЗов и Академий России, профессионалы, которые
+              умеют создавать красивые и индивидуальные ландшафтные дизайны любой сложности.
+            </p>
+            <ul>
+              <li>Выполним ваш проект под ключ</li>
+              <li>Реализуем любой стиль дизайна</li>
+              <li>В наличии более 500 видов растений</li>
+              <li>Гарантия на все виды услуг</li>
+            </ul>
+            <div class="btn-block mta">
+
+              <a class="services-btn" href="tel:+79262075333">Позвонить</a>
+              <a class="services-btn-c" href="/gallery">Посмотреть работы</a>
+            </div>
+          </div>
+          <div class="landscape-right">
+            <img src="/img/home/landscape.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="etap">
+      <div class="container">
+        <h4>ЭТАПЫ РАБОТЫ</h4>
+        <svg xmlns="http://www.w3.org/2000/svg" width="423" height="2" viewBox="0 0 423 2" fill="none">
+          <path d="M0 1H423" stroke="#C3C9B2" stroke-width="0.5" />
+        </svg>
+        <div class="etap-span">МЫ ЯВЛЯЕМСЯ КОМПАНИЕЙ ПОЛНОГО ЦИКЛА</div>
+
+
+
+        <div class="timeline">
+          <div class="timeline-container ">
+            <div class="timeline-icon">
+              <img src="/img/home/ico1.svg" alt="">
+            </div>
+            <div class="timeline-body">
+              <h4 class="timeline-title"><span class="badge">ОБРАЩЕНИЕ В КОМПАНИЮ</span></h4>
+              <p>Первое общение с вами, сбор и анализ пожеланий, подготовка коммерческого предложения, созвон в Zoom для
+                презентации КП, сразу расскажем как мы работаем</p>
+
+            </div>
+          </div>
+          <div class="timeline-container ">
+            <div class="timeline-icon">
+              <img src="/img/home/ico2.svg" alt="">
+            </div>
+            <div class="timeline-body">
+              <h4 class="timeline-title"><span class="badge">ВЫЕЗД СПЕЦИАЛИСТА</span></h4>
+              <p>Встреча на участке, выявление и обсуждение особенностей участка, фотофиксация, совместное заполнение ТЗ
+              </p>
+
+            </div>
+          </div>
+          <div class="timeline-container ">
+            <div class="timeline-icon">
+              <img src="/img/home/ico3.svg" alt="">
+            </div>
+            <div class="timeline-body">
+              <h4 class="timeline-title"><span class="badge">ПРОЕКТИРОВАНИЕ</span></h4>
+              <p>Сначала концепция с бережным вниманием к деталям и вашим пожеланиям, затем разработка всех документов,
+                необходимых для реализации. Расчёт сметы</p>
+
+            </div>
+          </div>
+          <div class="timeline-container ">
+            <div class="timeline-icon">
+              <img src="/img/home/ico4.svg" alt="">
+            </div>
+            <div class="timeline-body">
+              <h4 class="timeline-title"><span class="badge">БЛАГОУСТРОЙСТВО</span></h4>
+              <p>Составим график производства работ и выполним все работы, согласно графику. Разбивка, ливневка, дренаж,
+                автополив, освещение, парковка, дорожки, посадки, газон, детские площадки. Сделаем все работы «под ключ»
+              </p>
+
+            </div>
+          </div>
+
+          <div class="timeline-container ">
+            <div class="timeline-icon">
+              <img src="/img/home/ico5.svg" alt="">
+            </div>
+            <div class="timeline-body">
+              <h4 class="timeline-title"><span class="badge">СДАЧА ОБЪЕКТА</span></h4>
+              <p>Сдаем вам работы, подписываем акт приема-передачи выполненных работ. Гарантия на все работы 12 месяцев.
+                Дадим рекомендации по уходу за садом и покрытиями. Будем всегда на связи</p>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="contacts-bottom ">
+      <div class="container price-flex">
+        <h2>КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+        <svg xmlns="http://www.w3.org/2000/svg" width="423" height="2" viewBox="0 0 423 2" fill="none">
+          <path d="M0 1H423" stroke="#C3C9B2" stroke-width="0.5" />
+        </svg>
+        <span>СВЯЖИТЕСЬ С НАМИ, ЧТОБЫ УЗНАТЬ ВСЕ ПОДРОБНОСТИ</span>
+        <div class="contacts-wrapper-bottom">
+          <div class="contacts-left">
+            <div class="contacts-adress">
+              <div>г. Москва, улица Красного Маяка, дом 4</div>
+              <div>г. Чехов, ул. Почтовая, дом 80</div>
+            </div>
+            <div class="contacts-phone"><a href="tel:+79262075333">+7 926 207 53 33</a></div>
+            <div class="contacts-email"><a href="mailto:gribkov0993@mail.ru">gribkov0993@mail.ru</a></div>
+            <div class="social-bottom">
+              <a href=""><img src="/img/slider/tg.svg" alt=""></a>
+              <a href=""><img src="/img/slider/wa.svg" alt=""></a>
+              <a href=""><img src="/img/slider/vk.svg" alt=""></a>
+            </div>
+          </div>
+          <div class="contacts-right">
+            <img src="/img/home/map.jpg" alt="">
+          </div>
+        </div>
+
+        <div id="ex1" class="modal">
+          <h3>Закажите звонок</h3>
+          <p>Оставьте ваши данные и наш менеджер<br> свяжется с Вами для уточнения деталей </p>
+         
+          <form action="/send-modal.php"  method="POST">
+            <div class="asfe">
+            <label class="input-label">
+              <select class="select-css" name="usluga-modal" id="usluga-modal-select">
+                <option value="">Выберите услугу</option>
+                <option value="uborka">Уборка и расчистка</option>
+                <option value="drenaj">Дренажные работы</option>
+                <option value="cultivation">Культивация</option>
+                <option value="viravnivanie">Выравнивание участка</option>
+                <option value="stroitelstvo">Подготовка участка к строительству</option>
+                <option value="gazon">Подготовка участка под газон</option>
+                <option value="landscape">Ландшафтный дизайн</option>
+                <option value="septik">Установка септика</option>
+              </select>
+            </label>
+          </div>
+<div>
+            <label class="input-label">
+              <span class="input-title">Номер телефона</span>
+              <input
+              placeholder="+7 (000) 000-00-00"
+                class="form-input"
+                type="text"
+                size="40"
+                name="phone"
+              >
+            </label>
+          </div>
+<div>
+            <label class="input-label">
+              <span class="input-title">Ваше имя</span>
+              <input
+              placeholder="Укажите имя"
+                class="form-input"
+                type="text"
+                size="40"
+                name="name"
+              >
+            </label>
+          </div>
+        <div class="mt18">
+            <input
+            type="submit"
+            value="Отправить"
+            class="modal-btn"
+            disabled
+          >
+          <span class="modal-info" >Оставляя заявку, вы даете согласие на обработку ваших персональных данных</span>
+        </div>
+          </form>
+        </div>
+        
+        <!-- Link to open the modal -->
+        <p><a href="#ex1" rel="modal:open">Open Modal</a></p>
+      </div>
     </section>
     <footer>
- 
-      <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"></script>
-<script src="/js/owlcarousel/owl.carousel.min.js"></script>
+      <div class="container">
+        <div class="footer-wrapper">
+          <a class="footer-logo" href=""><img src="/img/home/logo.png" alt=""></a>
+          <div class="footer-info">
+            <div class="footer-menu">
+              <a href="">УСЛУГИ</a>
+              <a href="">АРЕНДА</a>
+              <a href="">ПОРТФОЛИО</a>
+              <a href="">ЦЕНЫ</a>
+              <a href="">О НАС</a>
+              <a href="">КОНТАКТЫ</a>
+            </div>
+            <div class="footer-slogan">БЕРЕМ НА СЕБЯ ОТВЕТСТВЕННОСТЬ ЗА ВАШ УЧАСТОК</div>
+          </div>
+        </div>
+        <div class="footer-made">Сайт разработан Groupnet</div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+      <script src="/js/owlcarousel/owl.carousel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
 
-<script>
-  $('.owl-carousel-slider').owlCarousel({
-    loop:true,
-    navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
-    nav:true,
-    
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
-</script>
-<script>var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '35px');
-  dots.css('left', 'calc(50% - ' + dots.width()/2+'px)');</script>
+      <script>
+        $('.owl-carousel-slider').owlCarousel({
+          loop: true,
+          navText: ["<div class='nav-btn prev-slide'></div>", "<div class='nav-btn next-slide'></div>"],
+          nav: true,
+
+          responsive: {
+            0: {
+              items: 1
+            },
+            600: {
+              items: 1
+            },
+            1000: {
+              items: 1
+            }
+          }
+        })
+      </script>
+      <script>
+        var dots = $('.owl-dots').css('position', 'absolute').css('bottom', '35px');
+        dots.css('left', 'calc(50% - ' + dots.width() / 2 + 'px)');
+      </script>
+
+
     </footer>
   </body>
 </html>
